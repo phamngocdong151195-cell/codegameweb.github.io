@@ -8,7 +8,7 @@ export default function Home() {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-5xl sm:text-6xl font-bold text-white mb-4 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-600">
-            Game Codes Collection
+            Game Code
           </h1>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
             Khám phá bộ sưu tập các mã code cho những tựa game yêu thích của bạn
