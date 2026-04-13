@@ -11,7 +11,7 @@ export const GAMES: Game[] = [
     ],
   },
   {
-    id: '1',
+    id: '2',
     name: 'Hải Tặc Đại Chiến',
     slug: 'HTDC',
     image: '/Game/hai-tac.jpg',
@@ -65,12 +65,39 @@ export const GAMES: Game[] = [
     ],
   },
    {
-    id: '7',
+    id: '8',
     name: 'Học Viện Huyền Thoại',
     slug: 'HVHT',
     image: '/Game/hocvien.jpg',
     codes: [
       { id: 'code1', name: 'Code Học Viện Huyền Thoại', image: '/Game/anhhocvien.jpg' },
+    ],
+  },
+  {
+    id: '9',
+    name: 'ComBo Thức Tỉnh',
+    slug: 'CBTT',
+    image: '/Game/combo.jpg',
+    codes: [
+      { id: 'code1', name: 'Code ComBo Thức Tỉnh', image: '/Game/anhcombo.jpg' },
+    ],
+  },
+  {
+    id: '10',
+    name: 'Yulgang Tái Chiễn Võ Lâm',
+    slug: 'Yulgang',
+    image: '/Game/yulgang.jpg',
+    codes: [
+      { id: 'code1', name: 'Code Yulgang Tái Chiễn Võ Lâm', image: '/Game/anhyulgang.jpg' },
+    ],
+  },
+  {
+    id: '11',
+    name: 'Pixel Đại Chiến',
+    slug: 'pixel',
+    image: '/Game/pixel.jpg',
+    codes: [
+      { id: 'code1', name: 'Code Pixel Đại Chiến', image: '/Game/anhpixel.jpg' },
     ],
   },
 ];
