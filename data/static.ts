@@ -64,4 +64,13 @@ export const GAMES: Game[] = [
       { id: 'code1', name: 'Code Samkok Tam Quốc', image: '/Game/anhsamkok.jpg' },
     ],
   },
+   {
+    id: '7',
+    name: 'Học Viện Huyền Thoại',
+    slug: 'HVHT',
+    image: '/Game/hocvien.png',
+    codes: [
+      { id: 'code1', name: 'Code Học Viện Huyền Thoại', image: '/Game/anhhocvien.jpg' },
+    ],
+  },
 ];
