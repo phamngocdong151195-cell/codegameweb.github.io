@@ -45,7 +45,7 @@ const CodeCard = ({ code }: CodeCardProps) => {
           </a>
       
           <a
-            href="https://zalo.me/0345367094"
+            href="https://zalo.me/0375828795"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-cyan-600 hover:bg-cyan-700 text-white py-2 px-3 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2 text-sm font-semibold"
