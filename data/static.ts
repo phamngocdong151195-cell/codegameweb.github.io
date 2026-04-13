@@ -100,4 +100,22 @@ export const GAMES: Game[] = [
       { id: 'code1', name: 'Code Pixel Đại Chiến', image: '/Game/anhpixel.jpg' },
     ],
   },
+  {
+    id: '12',
+    name: 'Rồng Thần Siêu Cấp',
+    slug: 'RTSC',
+    image: '/Game/rongthan.jpg',
+    codes: [
+      { id: 'code1', name: 'Code Rồng Thần Siêu Cấp', image: '/Game/anhrongthan.jpg' },
+    ],
+  },
+  {
+    id: '13',
+    name: 'MU Vĩnh Hằng',
+    slug: 'MUVH',
+    image: '/Game/muvinhhang.jpg',
+    codes: [
+      { id: 'code1', name: 'Code MU Vĩnh Hằng', image: '/Game/anhmuvinhhang.jpg' },
+    ],
+  },
 ];
