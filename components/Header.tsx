@@ -26,7 +26,7 @@ const Header = () => {
               <span>Đổng</span>
             </a>
             <a 
-              href="https://zalo.me/0345367094" 
+              href="https://zalo.me/0375828795" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-sm sm:text-base text-slate-300 hover:text-cyan-400 transition-colors duration-200 flex items-center space-x-1"
