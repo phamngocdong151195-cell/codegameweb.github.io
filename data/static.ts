@@ -23,7 +23,7 @@ export const GAMES: Game[] = [
     id: '3',
     name: 'Phong Hầu Tam Quốc',
     slug: 'phonghautamquoc',
-    image: '/Game/phonghau.jpg',
+    image: '/Game/anhphonghau.jpg',
     codes: [
       { id: 'code1', name: 'Code Hải Tặc 1', image: '/Game/phonghau.jpg' },
     ],
@@ -68,7 +68,7 @@ export const GAMES: Game[] = [
     id: '7',
     name: 'Học Viện Huyền Thoại',
     slug: 'HVHT',
-    image: '/Game/hocvien.png',
+    image: '/Game/hocvien.jpg',
     codes: [
       { id: 'code1', name: 'Code Học Viện Huyền Thoại', image: '/Game/anhhocvien.jpg' },
     ],
