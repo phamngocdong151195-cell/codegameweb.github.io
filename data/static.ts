@@ -17,7 +17,10 @@ export const GAMES: Game[] = [
     slug: 'HTDC',
     image: '/Game/hai-tac.jpg',
     codes: [
-      { id: 'code1', name: 'Code Hải Tặc Đại Chiến', image: '/Game/anhhaitac.jpg' },
+      { id: 'code1', name: 'Code Hải Tặc Đại Chiến', image: '/Game/htdc1.jpg' },
+      { id: 'code1', name: 'Code Hải Tặc Đại Chiến', image: '/Game/htdc2.jpg' },
+      { id: 'code1', name: 'Code Hải Tặc Đại Chiến', image: '/Game/htdc3.jpg' },
+
     ],
   },
   {
@@ -26,7 +29,7 @@ export const GAMES: Game[] = [
     slug: 'phonghautamquoc',
     image: '/Game/anhphonghau.jpg',
     codes: [
-      { id: 'code1', name: 'Code Hải Tặc 1', image: '/Game/phonghau.jpg' },
+      { id: 'code1', name: 'Code Phong Hầu Tam Quốc', image: '/Game/phonghau.jpg' },
     ],
   },
     {
