@@ -7,8 +7,7 @@ export const GAMES: Game[] = [
     slug: 'haki',
     image: '/Game/haki.jpg',
     codes: [
-      { id: 'code1', name: 'Code Haki 1', image: '/Game/haki.jpg' },
-      { id: 'code2', name: 'Code Haki 2', image: '/Game/haki.jpg' },
+      { id: 'code4', name: 'Code Haki 1', image: '/Game/anhhaki.jpg' },
     ],
   },
   {
@@ -26,7 +25,7 @@ export const GAMES: Game[] = [
     slug: 'phong-hau',
     image: '/Game/phonghau.jpg',
     codes: [
-      { id: 'code3', name: 'Code Hải Tặc 1', image: '/Game/phonghau.jpg' },
+      { id: 'code7', name: 'Code Hải Tặc 1', image: '/Game/phonghau.jpg' },
     ],
   },
     {
@@ -35,7 +34,7 @@ export const GAMES: Game[] = [
     slug: 'sieu-hai-tac',
     image: '/Game/siêu hải tặc.jpg',
     codes: [
-      { id: 'code1', name: 'Code Siêu Hải Tặc 1', image: '/Game/haitac.jpg' },
+      { id: 'code10', name: 'Code Siêu Hải Tặc 1', image: '/Game/haitac.jpg' },
     ],
   },
   {
@@ -44,7 +43,25 @@ export const GAMES: Game[] = [
     slug: 'vo-danh-giang-ho',
     image: '/Game/anhvodanh.jpg',
     codes: [
-      { id: 'code1', name: 'Code vô danh giang hồ', image: '/Game/codevodanh.jpg' },
+      { id: 'code17', name: 'Code vô danh giang hồ', image: '/Game/codevodanh.jpg' },
+    ],
+  },
+  {
+    id: '6',
+    name: 'Bửu Bối Truyền Kỳ',
+    slug: 'buu-boi-truyen-ky',
+    image: '/Game/buuboi.jpg',
+    codes: [
+      { id: 'code17', name: 'Code Bửu Bối Truyền Kỳ', image: '/Game/anhbuuboi.jpg' },
+    ],
+  },
+  {
+    id: '7',
+    name: 'Samkok Tam Quốc',
+    slug: 'samkok-tam-quoc',
+    image: '/Game/samkok.jpg',
+    codes: [
+      { id: 'code10', name: 'Code Samkok Tam Quốc', image: '/Game/anhsamkok.jpg' },
     ],
   },
 ];
