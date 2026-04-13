@@ -20,4 +20,13 @@ export const GAMES: Game[] = [
       { id: 'code3', name: 'Code Hải Tặc 1', image: '/Game/hai-tac.jpg' },
     ],
   },
+  {
+    id: '3',
+    name: 'Phong Hầu Tam Quốc',
+    slug: 'phong-hau',
+    image: '/Game/phonghau.jpg',
+    codes: [
+      { id: 'code3', name: 'Code Hải Tặc 1', image: '/Game/phonghau.jpg' },
+    ],
+  },
 ];
