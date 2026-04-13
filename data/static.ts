@@ -118,4 +118,13 @@ export const GAMES: Game[] = [
       { id: 'code1', name: 'Code MU Vĩnh Hằng', image: '/Game/anhmuvinhhang.jpg' },
     ],
   },
+  {
+    id: '14',
+    name: 'Chiến Tuyến Hướng Dương',
+    slug: 'CTHD',
+    image: '/Game/huongduong.jpg',
+    codes: [
+      { id: 'code1', name: 'Code Chiến Tuyến Hướng Dương', image: '/Game/anhhuongduong.jpg' },
+    ],
+  },
 ];
