@@ -8,7 +8,7 @@ export const GAMES: Game[] = [
     image: '/Game/haki.jpg',
     codes: [
       { id: 'code1', name: 'Code Haki Huyền Thoại ', image: '/Game/anhhaki.jpg' },
-      { id: 'code2', name: 'Code Haki Huyền Thoại ', image: '/Game/anhhaki2.jpg' },
+      { id: 'code2', name: 'Code Haki Huyền Thoại ', image: '/Game/anhhaki2.png' },
     ],
   },
   {
