@@ -7,7 +7,7 @@ export const GAMES: Game[] = [
     slug: 'Haki',
     image: '/Game/haki.jpg',
     codes: [
-      { id: 'code1', name: 'Code Haki Huyền Thoại ', image: '/Game/anhhaki.jpg' },
+      { id: 'code1', name: 'Code Haki Huyền Thoại ', image: '/Game/anhhaki.png' },
       { id: 'code2', name: 'Code Haki Huyền Thoại ', image: '/Game/anhhaki2.png' },
     ],
   },
