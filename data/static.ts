@@ -33,7 +33,7 @@ export const GAMES: Game[] = [
     id: '4',
     name: 'Siêu Hải Tặc',
     slug: 'hai-tac',
-    image: '/Game/haitac.jpg',
+    image: '/Game/siêu hải tặc.jpg',
     codes: [
       { id: 'code1', name: 'Code Hải Tặc 1', image: '/Game/haitac.jpg' },
     ],
