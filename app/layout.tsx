@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Game Codes",
   description: "Game Codes",
   icons: {
-    icon: "/Game/favicon.ico",
+    icon: "/favicon.ico",
   },
 };
 
