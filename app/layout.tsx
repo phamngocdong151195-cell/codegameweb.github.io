@@ -11,6 +11,20 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  openGraph: {
+    title: "Game Codes",
+    description: "Game Codes",
+    url: "https://vinahut.io.vn",
+    siteName: "Game Codes",
+    images: [
+      {
+        url: "https://vinahut.io.vn/preview.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
