@@ -1,4 +1,5 @@
 import { Game } from '@/types';
+import type { FacebookAccount, GalleryImage } from '@/types';
 
 export const GAMES: Game[] = [
   {
@@ -131,4 +132,78 @@ export const GAMES: Game[] = [
       { id: 'code1', name: 'Code Chiến Tuyến Hướng Dương', image: '/anhhuongduong.jpg' },
     ],
   },
+];
+
+export const FACEBOOK_ACCOUNTS: FacebookAccount[] = [
+  {
+    id: '1',
+    name: 'Phạm Ngọc Đổng - FB Chính chủ',
+    url: 'https://www.facebook.com/VMBFlyTravel/',
+    image: '/avatar-dong.jpg',
+    followers: '50K+',
+    description: 'Trang chính của Đông - chia sẻ mã code game',
+    verified: true,
+    zaloUrl: 'https://zalo.me/0345367094',
+  },
+  {
+    id: '2',
+    name: 'Lương Cẩm Đào🍑 - FB Chính chủ',
+    url: 'https://www.facebook.com/vantuan26052004/',
+    image: '/avatar-dao.jpg',
+    followers: '30K+',
+    description: 'Trang chuyên chia sẻ code game và hướng dẫn',
+    verified: true,
+    zaloUrl: 'https://zalo.me/0837002627',
+  },
+  {
+    id: '3',
+    name: 'Cẩm Đào🍑',
+    url: 'https://www.facebook.com/cam.ao.242631/',
+    image: '/avatar-camdao.jpg',
+    followers: '25K+',
+    description: 'Cộng đồng chia sẻ code game Việt Nam',
+    verified: true,
+    // zaloUrl: 'https://zalo.me/0375828795',
+  },
+  {
+    id: '4',
+    name: 'Cẩm Đào',
+    url: 'https://www.facebook.com/profile.php?id=100069846480816',
+    image: '/camdao.jpg',
+    followers: '25K+',
+    description: 'Cộng đồng chia sẻ code game Việt Nam',
+    verified: true,
+    // zaloUrl: 'https://zalo.me/0375828795',
+  },
+  {
+    id: '5',
+    name: 'Huỳnh Uyển Linh',
+    url: 'https://www.facebook.com/profile.php?id=100089211395521',
+    image: '/uyenlinh.jpg',
+    followers: '25K+',
+    description: 'Cộng đồng chia sẻ code game Việt Nam',
+    verified: true,
+    // zaloUrl: 'https://zalo.me/0375828795',
+  },
+  {
+    id: '6',
+    name: 'Bé Bự🍑',
+    url: 'https://www.facebook.com/profile.php?id=100055972904390',
+    image: '/bebu.jpg',
+    followers: '25K+',
+    description: 'Cộng đồng chia sẻ code game Việt Nam',
+    verified: true,
+    // zaloUrl: 'https://zalo.me/0375828795',
+  },
+];
+
+export const GALLERY_IMAGES: GalleryImage[] = [
+  {
+    id: '1',
+    src: 'bill/bill1.jpg',
+    alt: 'bill',
+    title: 'bill',
+    description: '',
+  },
+
 ];

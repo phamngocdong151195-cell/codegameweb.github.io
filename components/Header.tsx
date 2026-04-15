@@ -14,6 +14,12 @@ const Header = () => {
             </span>
           </Link>
           <div className="flex items-center space-x-3 sm:space-x-6">
+            <Link 
+              href="/legit"
+              className="text-sm sm:text-base text-slate-300 hover:text-cyan-400 transition-colors duration-200"
+            >
+              Legit
+            </Link>
             <a 
               href="https://www.facebook.com/VMBFlyTravel/" 
               target="_blank" 

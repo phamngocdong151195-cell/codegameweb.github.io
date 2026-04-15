@@ -11,3 +11,22 @@ export type Code = {
   name: string;
   image: string;
 };
+
+export type FacebookAccount = {
+  id: string;
+  name: string;
+  url: string;
+  image: string;
+  followers?: string;
+  description?: string;
+  verified?: boolean;
+  zaloUrl?: string;
+};
+
+export type GalleryImage = {
+  id: string;
+  src: string;
+  alt: string;
+  title?: string;
+  description?: string;
+};
