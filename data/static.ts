@@ -205,5 +205,25 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     title: 'bill',
     description: '',
   },
-
+  {
+    id: '1',
+    src: 'bill/bill2.jpg',
+    alt: 'bill',
+    title: 'bill',
+    description: '',
+  },
+  {
+    id: '1',
+    src: 'bill/bill3.jpg',
+    alt: 'bill',
+    title: 'bill',
+    description: '',
+  },
+  {
+    id: '1',
+    src: 'bill/bill4.jpg',
+    alt: 'bill',
+    title: 'bill',
+    description: '',
+  },
 ];
