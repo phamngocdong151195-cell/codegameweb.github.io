@@ -193,7 +193,7 @@ export const FACEBOOK_ACCOUNTS: FacebookAccount[] = [
     followers: '25K+',
     description: 'Cộng đồng chia sẻ code game Việt Nam',
     verified: true,
-    // zaloUrl: 'https://zalo.me/0375828795',
+    zaloUrl: 'https://zalo.me/0375828795',
   },
 ];
 
