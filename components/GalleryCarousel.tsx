@@ -51,12 +51,12 @@ export default function GalleryCarousel({ images }: GalleryCarouselProps) {
             <div
               key={image.id}
               onClick={() => setSelectedImage(image)}
-              className="flex-shrink-0 w-96 h-72 rounded-xl overflow-hidden border border-slate-700 hover:border-cyan-400 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/20 group/card cursor-pointer relative"
+              className="flex-shrink-0 w-80 h-64 rounded-lg overflow-hidden border border-slate-700 hover:border-cyan-400 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/20 group/card cursor-pointer relative"
             >
               <img
                 src={image.src}
                 alt={image.alt}
-                className="w-full h-full object-cover group-hover/card:scale-105 transition-transform duration-300"
+                className="w-full h-full object-contain group-hover/card:scale-105 transition-transform duration-300 bg-slate-950"
               />
               {image.title && (
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col items-end justify-end p-5 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 pointer-events-none">
@@ -163,47 +163,47 @@ export default function GalleryCarousel({ images }: GalleryCarouselProps) {
           onClick={() => setSelectedImage(null)}
         >
           <div 
-            className="bg-slate-900 rounded-2xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto border border-slate-700"
+            className="bg-slate-900 rounded-2xl shadow-2xl max-w-2xl w-full max-h-[85vh] overflow-y-auto border border-slate-700"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Header */}
-            <div className="sticky top-0 bg-gradient-to-r from-slate-900 to-slate-800 border-b border-slate-700 p-6 flex items-center justify-between z-10">
-              <h3 className="text-2xl font-bold text-white">{selectedImage.title || 'Hình Ảnh'}</h3>
+            <div className="sticky top-0 bg-gradient-to-r from-slate-900 to-slate-800 border-b border-slate-700 px-6 py-4 flex items-center justify-between z-10">
+              <h3 className="text-xl font-bold text-white truncate">{selectedImage.title || 'Hình Ảnh'}</h3>
               <button
                 onClick={() => setSelectedImage(null)}
-                className="text-slate-400 hover:text-white transition-colors p-2 rounded-lg hover:bg-slate-700"
+                className="text-slate-400 hover:text-white transition-colors p-2 rounded-lg hover:bg-slate-700 flex-shrink-0 ml-4"
               >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
             </div>
 
             {/* Modal Content */}
-            <div className="p-6">
-              <div className="rounded-lg overflow-hidden border border-slate-700 mb-6">
+            <div className="p-5">
+              <div className="rounded-lg overflow-hidden border border-slate-700 mb-5 bg-slate-950">
                 <img
                   src={selectedImage.src}
                   alt={selectedImage.alt}
-                  className="w-full h-auto object-contain bg-slate-950"
+                  className="w-full h-auto object-contain max-h-96"
                 />
               </div>
 
-              {/* {selectedImage.description && (
+              {selectedImage.description && (
                 <div>
-                  <h4 className="text-lg font-semibold text-cyan-400 mb-3">Mô Tả</h4>
-                  <p className="text-slate-300 text-base leading-relaxed">
+                  <h4 className="text-base font-semibold text-cyan-400 mb-2">Mô Tả</h4>
+                  <p className="text-slate-300 text-sm leading-relaxed line-clamp-4">
                     {selectedImage.description}
                   </p>
                 </div>
-              )} */}
+              )}
             </div>
 
             {/* Modal Footer */}
-            <div className="sticky bottom-0 bg-slate-800 border-t border-slate-700 p-6 flex gap-3">
+            <div className="sticky bottom-0 bg-slate-800 border-t border-slate-700 px-5 py-3 flex gap-3">
               <button
                 onClick={() => setSelectedImage(null)}
-                className="flex-1 bg-slate-700 hover:bg-slate-600 text-white font-semibold py-3 px-4 rounded-lg transition-colors"
+                className="flex-1 bg-slate-700 hover:bg-slate-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm"
               >
                 Đóng
               </button>
