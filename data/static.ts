@@ -338,3 +338,18 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   title: 'bill',
   description: '',
 },
+  {
+  id: '17',
+  src: 'bill/18.jpg',
+  alt: 'bill',
+  title: 'bill',
+  description: '',
+},
+  {
+  id: '17',
+  src: 'bill/19.jpg',
+  alt: 'bill',
+  title: 'bill',
+  description: '',
+},
+   },
