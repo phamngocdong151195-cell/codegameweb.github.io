@@ -76,15 +76,15 @@ export const GAMES: Game[] = [
       { id: 'code1', name: 'Code Học Viện Huyền Thoại', image: '/anhcode/gamehocvien/anhhocvien.jpg' },
     ],
   },
-  {
-    id: '9',
-    name: 'ComBo Thức Tỉnh',
-    slug: 'CBTT',
-    image: '/anhcode/gamecombo/combo.jpg',
-    codes: [
-      { id: 'code1', name: 'Code ComBo Thức Tỉnh', image: '/anhcode/gamecombo/anhcombo.jpg' },
-    ],
-  },
+  // {
+  //   id: '9',
+  //   name: 'ComBo Thức Tỉnh',
+  //   slug: 'CBTT',
+  //   image: '/anhcode/gamecombo/combo.jpg',
+  //   codes: [
+  //     { id: 'code1', name: 'Code ComBo Thức Tỉnh', image: '/anhcode/gamecombo/anhcombo.jpg' },
+  //   ],
+  // },
   {
     id: '10',
     name: 'Yulgang Tái Chiễn Võ Lâm',
@@ -107,7 +107,7 @@ export const GAMES: Game[] = [
     id: '12',
     name: 'Rồng Thần Siêu Cấp',
     slug: 'RTSC',
-    image: '/anhcode/gamerongthan/rongthan.jpg',
+    image: '/anhcode/gamerongthan/fz12.png',
     codes: [
       { id: 'code1', name: 'Code Rồng Thần Siêu Cấp', image: '/anhcode/gamerongthan/anhrongthan.jpg' },
     ],
