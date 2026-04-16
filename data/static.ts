@@ -6,7 +6,7 @@ export const GAMES: Game[] = [
     id: '1',
     name: 'Haki Huyền Thoại',
     slug: 'Haki',
-    image: 'anhcode/haki.jpg',
+    image: '/anhcode/haki.jpg',
     codes: [
       { id: 'code1', name: 'Code Haki Huyền Thoại ', image: '/anhcode/anhhaki.png' },
       { id: 'code2', name: 'Code Haki Huyền Thoại ', image: '/anhcode/anhhaki2.png' },
@@ -16,7 +16,7 @@ export const GAMES: Game[] = [
     id: '2',
     name: 'Hải Tặc Đại Chiến',
     slug: 'HTDC',
-    image: 'anhcode/hai-tac.jpg',
+    image: '/anhcode/hai-tac.jpg',
     codes: [
       { id: 'code1', name: 'Code Hải Tặc Đại Chiến', image: '/anhcode/htdc1.jpg' },
       { id: 'code1', name: 'Code Hải Tặc Đại Chiến', image: '/anhcode/htdc2.jpg' },
@@ -28,7 +28,7 @@ export const GAMES: Game[] = [
     id: '3',
     name: 'Phong Hầu Tam Quốc',
     slug: 'phonghautamquoc',
-    image: 'anhcode/anhphonghau.jpg',
+    image: '/anhcode/anhphonghau.jpg',
     codes: [
       { id: 'code1', name: 'Code Phong Hầu Tam Quốc', image: '/anhcode/phonghau.jpg' },
     ],
@@ -37,7 +37,7 @@ export const GAMES: Game[] = [
     id: '4',
     name: 'Siêu Hải Tặc',
     slug: 'sieu-hai-tac',
-    image: 'anhcode/siêu hải tặc.jpg',
+    image: '/anhcode/siêu hải tặc.jpg',
     codes: [
       { id: 'code10', name: 'Code Siêu Hải Tặc 1', image: '/anhcode/haitac.jpg' },
     ],
@@ -46,7 +46,7 @@ export const GAMES: Game[] = [
     id: '5',
     name: 'Vô Danh Giang Hồ',
     slug: 'vodanhgiangho',
-    image: 'anhcode/anhvodanh.jpg',
+    image: '/anhcode/anhvodanh.jpg',
     codes: [
       { id: 'code1', name: 'Code vô danh giang hồ', image: '/anhcode/codevodanh.jpg' },
     ],
@@ -55,7 +55,7 @@ export const GAMES: Game[] = [
     id: '6',
     name: 'Bửu Bối Truyền Kỳ',
     slug: 'buuboitruyenky',
-    image: 'anhcode/buuboi.jpg',
+    image: '/anhcode/buuboi.jpg',
     codes: [
       { id: 'code1', name: 'Code Bửu Bối Truyền Kỳ', image: '/anhcode/anhbuuboi.jpg' },
     ],
@@ -64,7 +64,7 @@ export const GAMES: Game[] = [
     id: '7',
     name: 'Samkok Tam Quốc',
     slug: 'samkok-tam-quoc',
-    image: 'anhcode/samkok.jpg',
+    image: '/anhcode/samkok.jpg',
     codes: [
       { id: 'code1', name: 'Code Samkok Tam Quốc', image: '/anhcode/anhsamkok.jpg' },
     ],
@@ -73,16 +73,16 @@ export const GAMES: Game[] = [
     id: '8',
     name: 'Học Viện Huyền Thoại',
     slug: 'HVHT',
-    image: 'anhcode/hocvien.jpg',
+    image: '/anhcode/hocvien.jpg',
     codes: [
-      { id: 'code1', name: 'Code Học Viện Huyền Thoại', image: 'anhcode/anhhocvien.jpg' },
+      { id: 'code1', name: 'Code Học Viện Huyền Thoại', image: '/anhcode/anhhocvien.jpg' },
     ],
   },
   {
     id: '9',
     name: 'ComBo Thức Tỉnh',
     slug: 'CBTT',
-    image: 'anhcode/combo.jpg',
+    image: '/anhcode/combo.jpg',
     codes: [
       { id: 'code1', name: 'Code ComBo Thức Tỉnh', image: '/anhcode/anhcombo.jpg' },
     ],
@@ -91,7 +91,7 @@ export const GAMES: Game[] = [
     id: '10',
     name: 'Yulgang Tái Chiễn Võ Lâm',
     slug: 'Yulgang',
-    image: 'anhcode/yulgang.jpg',
+    image: '/anhcode/yulgang.jpg',
     codes: [
       { id: 'code1', name: 'Code Yulgang Tái Chiễn Võ Lâm', image: '/anhcode/anhyulgang.jpg' },
     ],
@@ -100,7 +100,7 @@ export const GAMES: Game[] = [
     id: '11',
     name: 'Pixel Đại Chiến',
     slug: 'pixel',
-    image: 'anhcode/pixel.jpg',
+    image: '/anhcode/pixel.jpg',
     codes: [
       { id: 'code1', name: 'Code Pixel Đại Chiến', image: '/anhcode/anhpixel.jpg' },
     ],
@@ -109,7 +109,7 @@ export const GAMES: Game[] = [
     id: '12',
     name: 'Rồng Thần Siêu Cấp',
     slug: 'RTSC',
-    image: 'anhcode/rongthan.jpg',
+    image: '/anhcode/rongthan.jpg',
     codes: [
       { id: 'code1', name: 'Code Rồng Thần Siêu Cấp', image: '/anhcode/anhrongthan.jpg' },
     ],
@@ -118,16 +118,16 @@ export const GAMES: Game[] = [
     id: '13',
     name: 'MU Vĩnh Hằng',
     slug: 'MUVH',
-    image: 'anhcode/muvinhhang.jpg',
+    image: '/anhcode/muvinhhang.jpg',
     codes: [
-      { id: 'code1', name: 'Code MU Vĩnh Hằng', image: 'anhcode/anhmuvinhhang.jpg' },
+      { id: 'code1', name: 'Code MU Vĩnh Hằng', image: '/anhcode/anhmuvinhhang.jpg' },
     ],
   },
   {
     id: '14',
     name: 'Chiến Tuyến Hướng Dương',
     slug: 'CTHD',
-    image: 'anhcode/huongduong.jpg',
+    image: '/anhcode/huongduong.jpg',
     codes: [
       { id: 'code1', name: 'Code Chiến Tuyến Hướng Dương', image: '/anhcode/anhhuongduong.jpg' },
     ],
