@@ -107,9 +107,9 @@ export const GAMES: Game[] = [
     id: '12',
     name: 'Rồng Thần Siêu Cấp',
     slug: 'RTSC',
-    image: '/anhcode/gamerongthan/fz12.png',
+    image: '/anhcode/gamerongthan/rongthan.jpg',
     codes: [
-      { id: 'code1', name: 'Code Rồng Thần Siêu Cấp', image: '/anhcode/gamerongthan/anhrongthan.jpg' },
+      { id: 'code1', name: 'Code Rồng Thần Siêu Cấp', image: '/anhcode/gamerongthan/fz12.png' },
     ],
   },
   {
