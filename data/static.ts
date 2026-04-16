@@ -57,7 +57,7 @@ export const GAMES: Game[] = [
     slug: 'buuboitruyenky',
     image: 'anhcode/buuboi.jpg',
     codes: [
-      { id: 'code1', name: 'Code Bửu Bối Truyền Kỳ', image: 'anhcode/anhbuuboi.jpg' },
+      { id: 'code1', name: 'Code Bửu Bối Truyền Kỳ', image: '/anhcode/anhbuuboi.jpg' },
     ],
   },
   {
@@ -102,7 +102,7 @@ export const GAMES: Game[] = [
     slug: 'pixel',
     image: 'anhcode/pixel.jpg',
     codes: [
-      { id: 'code1', name: 'Code Pixel Đại Chiến', image: 'anhcode/anhpixel.jpg' },
+      { id: 'code1', name: 'Code Pixel Đại Chiến', image: '/anhcode/anhpixel.jpg' },
     ],
   },
   {
@@ -129,7 +129,7 @@ export const GAMES: Game[] = [
     slug: 'CTHD',
     image: 'anhcode/huongduong.jpg',
     codes: [
-      { id: 'code1', name: 'Code Chiến Tuyến Hướng Dương', image: 'anhcode/anhhuongduong.jpg' },
+      { id: 'code1', name: 'Code Chiến Tuyến Hướng Dương', image: '/anhcode/anhhuongduong.jpg' },
     ],
   },
 ];
