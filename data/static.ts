@@ -155,8 +155,18 @@ export const FACEBOOK_ACCOUNTS: FacebookAccount[] = [
     verified: true,
     zaloUrl: 'https://zalo.me/0837002627',
   },
-  {
+   {
     id: '3',
+    name: 'Bé Bự🍑',
+    url: 'https://www.facebook.com/profile.php?id=100055972904390',
+    image: '/bebu.jpg',
+    followers: '25K+',
+    description: 'Cộng đồng chia sẻ code game Việt Nam',
+    verified: true,
+    zaloUrl: 'https://zalo.me/0375828795',
+  },
+  {
+    id: '4',
     name: 'Cẩm Đào🍑',
     url: 'https://www.facebook.com/cam.ao.242631/',
     image: '/avatar-camdao.jpg',
@@ -166,7 +176,7 @@ export const FACEBOOK_ACCOUNTS: FacebookAccount[] = [
     // zaloUrl: 'https://zalo.me/0375828795',
   },
   {
-    id: '4',
+    id: '5',
     name: 'Cẩm Đào',
     url: 'https://www.facebook.com/profile.php?id=100069846480816',
     image: '/camdao.jpg',
@@ -176,7 +186,7 @@ export const FACEBOOK_ACCOUNTS: FacebookAccount[] = [
     // zaloUrl: 'https://zalo.me/0375828795',
   },
   {
-    id: '5',
+    id: '6',
     name: 'Huỳnh Uyển Linh',
     url: 'https://www.facebook.com/profile.php?id=100089211395521',
     image: '/uyenlinh.jpg',
@@ -184,16 +194,6 @@ export const FACEBOOK_ACCOUNTS: FacebookAccount[] = [
     description: 'Cộng đồng chia sẻ code game Việt Nam',
     verified: true,
     // zaloUrl: 'https://zalo.me/0375828795',
-  },
-  {
-    id: '6',
-    name: 'Bé Bự🍑',
-    url: 'https://www.facebook.com/profile.php?id=100055972904390',
-    image: '/bebu.jpg',
-    followers: '25K+',
-    description: 'Cộng đồng chia sẻ code game Việt Nam',
-    verified: true,
-    zaloUrl: 'https://zalo.me/0375828795',
   },
 ];
 
