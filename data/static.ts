@@ -226,4 +226,21 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     title: 'bill',
     description: '',
   },
+   {
+    id: '1',
+    src: 'bill/1.PNG',
+    alt: 'bill',
+    title: 'bill',
+    description: '',
+  },
+  {
+    src: 'bill/2.PNG',
+    alt: 'bill',
+    title: 'bill',
+    description: '',
+  },
+  {
+    src: 'bill/2.PNG',
+    alt: 'bill',
+    title: 'bill',
 ];
