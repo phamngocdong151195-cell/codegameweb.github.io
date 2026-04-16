@@ -9,6 +9,7 @@ export const GAMES: Game[] = [
     image: '/anhcode/gamehaki/haki.jpg',
     codes: [
       { id: 'code1', name: 'Code Haki Huyền Thoại', image: '/anhcode/gamehaki/anhhaki.png' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamehaki/zalohaki.jpg' },
     ],
   },
   {
@@ -20,7 +21,7 @@ export const GAMES: Game[] = [
       { id: 'code1', name: 'Code Hải Tặc Đại Chiến', image: '/anhcode/gamehtdc/htdc1.jpg' },
       { id: 'code2', name: 'Code Hải Tặc Đại Chiến', image: '/anhcode/gamehtdc/htdc2.jpg' },
       { id: 'code3', name: 'Code Hải Tặc Đại Chiến', image: '/anhcode/gamehtdc/htdc3.jpg' },
-      { id: 'code4', name: 'Nhóm Zalo Thông Báo Code', image: '/anhcode/gamehtdc/zalohtdc.jpg' },
+      { id: 'code4', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamehtdc/zalohtdc.jpg' },
     ],
   },
   {
@@ -30,6 +31,7 @@ export const GAMES: Game[] = [
     image: '/anhcode/gamephonghau/anhphonghau.jpg',
     codes: [
       { id: 'code1', name: 'Code Phong Hầu Tam Quốc', image: '/anhcode/gamephonghau/phonghau.jpg' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamephonghau/zalophonghau.jpg' },
     ],
   },
   {
@@ -39,6 +41,7 @@ export const GAMES: Game[] = [
     image: '/anhcode/gamesieuhaitac/siêu hải tặc.jpg',
     codes: [
       { id: 'code1', name: 'Code Siêu Hải Tặc 1', image: '/anhcode/gamesieuhaitac/haitac.jpg' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamesieuhaitac/zalosieuhaitac.jpg' },
     ],
   },
   {
@@ -48,6 +51,7 @@ export const GAMES: Game[] = [
     image: '/anhcode/gamevodanh/anhvodanh.jpg',
     codes: [
       { id: 'code1', name: 'Code vô danh giang hồ', image: '/anhcode/gamevodanh/codevodanh.jpg' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamevodanh/zalovodanh.jpg' },
     ],
   },
   {
@@ -57,6 +61,7 @@ export const GAMES: Game[] = [
     image: '/anhcode/gamebuuboi/buuboi.jpg',
     codes: [
       { id: 'code1', name: 'Code Bửu Bối Truyền Kỳ', image: '/anhcode/gamebuuboi/anhbuuboi.jpg' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamebuuboi/zalobuuboi.jpg' },
     ],
   },
   {
@@ -66,6 +71,7 @@ export const GAMES: Game[] = [
     image: '/anhcode/gamesamkok/samkok.jpg',
     codes: [
       { id: 'code1', name: 'Code Samkok Tam Quốc', image: '/anhcode/gamesamkok/anhsamkok.jpg' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamesamkok/zalosamkok.jpg' },
     ],
   },
   {
@@ -75,17 +81,19 @@ export const GAMES: Game[] = [
     image: '/anhcode/gamehocvien/hocvien.jpg',
     codes: [
       { id: 'code1', name: 'Code Học Viện Huyền Thoại', image: '/anhcode/gamehocvien/anhhocvien.jpg' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamehocvien/zalohocvien.jpg' },
     ],
   },
-  // {
-  //   id: '9',
-  //   name: 'ComBo Thức Tỉnh',
-  //   slug: 'CBTT',
-  //   image: '/anhcode/gamecombo/combo.jpg',
-  //   codes: [
+   {
+   id: '9',
+     name: 'ComBo Thức Tỉnh',
+     slug: 'CBTT',
+     image: '/anhcode/gamecombo/combo.jpg',
+     codes: [
   //     { id: 'code1', name: 'Code ComBo Thức Tỉnh', image: '/anhcode/gamecombo/anhcombo.jpg' },
-  //   ],
-  // },
+         { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamecombo/zalocombo.jpg' },
+     ],
+   },
   {
     id: '10',
     name: 'Yulgang Tái Chiễn Võ Lâm',
@@ -93,6 +101,7 @@ export const GAMES: Game[] = [
     image: '/anhcode/gameyulgang/yulgang.jpg',
     codes: [
       { id: 'code1', name: 'Code Yulgang Tái Chiễn Võ Lâm', image: '/anhcode/gameyulgang/anhyulgang.jpg' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gameyulgang/zaloyulgang.jpg' },
     ],
   },
   {
@@ -102,6 +111,7 @@ export const GAMES: Game[] = [
     image: '/anhcode/gamepixel/pixel.jpg',
     codes: [
       { id: 'code1', name: 'Code Pixel Đại Chiến', image: '/anhcode/gamepixel/anhpixel.jpg' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamepixel/zalopixel.jpg' },
     ],
   },
   {
@@ -111,6 +121,7 @@ export const GAMES: Game[] = [
     image: '/anhcode/gamerongthan/rongthan.jpg',
     codes: [
       { id: 'code1', name: 'Code Rồng Thần Siêu Cấp', image: '/anhcode/gamerongthan/fz12.png' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamerongthan/zalorongthan.jpg' },
     ],
   },
   {
@@ -120,6 +131,7 @@ export const GAMES: Game[] = [
     image: '/anhcode/gamemuvh/muvinhhang.jpg',
     codes: [
       { id: 'code1', name: 'Code MU Vĩnh Hằng', image: '/anhcode/gamemuvh/anhmuvinhhang.jpg' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamemuvh/zalomuvh.jpg' },
     ],
   },
   {
@@ -129,6 +141,7 @@ export const GAMES: Game[] = [
     image: '/anhcode/gamehuongduong/huongduong.jpg',
     codes: [
       { id: 'code1', name: 'Code Chiến Tuyến Hướng Dương', image: '/anhcode/gamehuongduong/anhhuongduong.jpg' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamehuongduong/zalohuongduong.jpg' },
     ],
   },
 ];
