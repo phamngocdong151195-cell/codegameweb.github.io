@@ -3,15 +3,13 @@ import type { FacebookAccount, GalleryImage } from '@/types';
 
 export const GAMES: Game[] = [
   {
-    id: '1', name: 'Haki Huyền Thoại', slug: 'Haki', image: '/anhcode/gamehaki/haki.jpg',
-    codes: [
+    id: '1', name: 'Haki Huyền Thoại', slug: 'Haki', image: '/anhcode/gamehaki/haki.jpg',codes: [
       { id: 'code1', name: 'Code Haki Huyền Thoại', image: '/anhcode/gamehaki/anhhaki.png' },
       { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamehaki/zalohaki.jpg' },
     ],
   },
   {
-    id: '2', name: 'Hải Tặc Đại Chiến', slug: 'HTDC', image: '/anhcode/gamehtdc/hai-tac.jpg',
-    codes: [
+    id: '2', name: 'Hải Tặc Đại Chiến', slug: 'HTDC', image: '/anhcode/gamehtdc/hai-tac.jpg',codes: [
       { id: 'code1', name: 'Code Hải Tặc Đại Chiến', image: '/anhcode/gamehtdc/htdc1.jpg' },
       { id: 'code2', name: 'Code Hải Tặc Đại Chiến', image: '/anhcode/gamehtdc/htdc2.jpg' },
       { id: 'code3', name: 'Code Hải Tặc Đại Chiến', image: '/anhcode/gamehtdc/htdc3.jpg' },
@@ -19,67 +17,56 @@ export const GAMES: Game[] = [
     ],
   },
   {
-    id: '3', name: 'Phong Hầu Tam Quốc', slug: 'phonghautamquoc', image: '/anhcode/gamephonghau/anhphonghau.jpg',
-    codes: [
+    id: '3', name: 'Phong Hầu Tam Quốc', slug: 'phonghautamquoc', image: '/anhcode/gamephonghau/anhphonghau.jpg', codes: [
       { id: 'code1', name: 'Code Phong Hầu Tam Quốc', image: '/anhcode/gamephonghau/phonghau.jpg' },
       { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamephonghau/zalophonghau.jpg' },
     ],
   },
   {
-    id: '4', name: 'Siêu Hải Tặc', slug: 'sieu-hai-tac', image: '/anhcode/gamesieuhaitac/siêu hải tặc.jpg',
-    codes: [
+    id: '4', name: 'Siêu Hải Tặc', slug: 'sieu-hai-tac', image: '/anhcode/gamesieuhaitac/siêu hải tặc.jpg', codes: [
       { id: 'code1', name: 'Code Siêu Hải Tặc 1', image: '/anhcode/gamesieuhaitac/haitac.jpg' },
       { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamesieuhaitac/zalosieuhaitac.jpg' },
     ],
   },
   {
-    id: '5', name: 'Vô Danh Giang Hồ', slug: 'vodanhgiangho', image: '/anhcode/gamevodanh/anhvodanh.jpg',
-    codes: [
+    id: '5', name: 'Vô Danh Giang Hồ', slug: 'vodanhgiangho', image: '/anhcode/gamevodanh/anhvodanh.jpg', codes: [
       { id: 'code1', name: 'Code vô danh giang hồ', image: '/anhcode/gamevodanh/codevodanh.jpg' },
       { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamevodanh/zalovodanh.jpg' },
     ],
   },
   {
-    id: '6', name: 'Bửu Bối Truyền Kỳ', slug: 'buuboitruyenky', image: '/anhcode/gamebuuboi/buuboi.jpg',
-    codes: [
+    id: '6', name: 'Bửu Bối Truyền Kỳ', slug: 'buuboitruyenky', image: '/anhcode/gamebuuboi/buuboi.jpg', codes: [
       { id: 'code1', name: 'Code Bửu Bối Truyền Kỳ', image: '/anhcode/gamebuuboi/anhbuuboi.jpg' },
       { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamebuuboi/zalobuuboi.jpg' },
     ],
   },
   {
-    id: '7', name: 'Samkok Tam Quốc', slug: 'samkok-tam-quoc', image: '/anhcode/gamesamkok/samkok.jpg',
-    codes: [
+    id: '7', name: 'Samkok Tam Quốc', slug: 'samkok-tam-quoc', image: '/anhcode/gamesamkok/samkok.jpg', codes: [
       { id: 'code1', name: 'Code Samkok Tam Quốc', image: '/anhcode/gamesamkok/anhsamkok.jpg' },
       { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamesamkok/zalosamkok.jpg' },
     ],
   },
   {
-    id: '8', name: 'Học Viện Huyền Thoại', slug: 'HVHT', image: '/anhcode/gamehocvien/hocvien.jpg',
-    codes: [
+    id: '8', name: 'Học Viện Huyền Thoại', slug: 'HVHT', image: '/anhcode/gamehocvien/hocvien.jpg', codes: [
       { id: 'code1', name: 'Code Học Viện Huyền Thoại', image: '/anhcode/gamehocvien/anhhocvien.jpg' },
       { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamehocvien/zalohocvien.jpg' },
     ],
   },
    {
-   id: '9', name: 'ComBo Thức Tỉnh', slug: 'CBTT', image: '/anhcode/gamecombo/combo.jpg',
-     codes: [
+   id: '9', name: 'ComBo Thức Tỉnh', slug: 'CBTT', image: '/anhcode/gamecombo/combo.jpg', codes: [
   //     { id: 'code1', name: 'Code ComBo Thức Tỉnh', image: '/anhcode/gamecombo/anhcombo.jpg' },
-         { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamecombo/zalocombo.jpg' },
+         { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamecombo/zalocombo.png' },
      ],
    },
   {
-    id: '10', name: 'Yulgang Tái Chiễn Võ Lâm', slug: 'Yulgang', image: '/anhcode/gameyulgang/yulgang.jpg',
-    codes: [
-      { id: 'code1', name: 'Code Yulgang Tái Chiễn Võ Lâm', image: '/anhcode/gameyulgang/anhyulgang.jpg' },
-      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gameyulgang/zaloyulgang.jpg' },
-    ],
+    id: '10', name: 'Yulgang Tái Chiễn Võ Lâm', slug: 'Yulgang', image: '/anhcode/gameyulgang/yulgang.jpg', 
+     codes: [ { id: 'code1', name: 'Code Yulgang Tái Chiễn Võ Lâm', image: '/anhcode/gameyulgang/anhyulgang.jpg' },
+              { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gameyulgang/zaloyulgang.jpg' }, ],
   },
   {
     id: '11', name: 'Pixel Đại Chiến', slug: 'pixel', image: '/anhcode/gamepixel/pixel.jpg',
-    codes: [
-      { id: 'code1', name: 'Code Pixel Đại Chiến', image: '/anhcode/gamepixel/anhpixel.jpg' },
-      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamepixel/zalopixel.jpg' },
-    ],
+    codes: [ { id: 'code1', name: 'Code Pixel Đại Chiến', image: '/anhcode/gamepixel/anhpixel.jpg' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamepixel/zalopixel.jpg' },],
   },
   {
     id: '12', name: 'Rồng Thần Siêu Cấp', slug: 'RTSC', image: '/anhcode/gamerongthan/rongthan.jpg',
