@@ -352,4 +352,4 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   title: 'bill',
   description: '',
 },
-   },
+]
