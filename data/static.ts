@@ -140,7 +140,7 @@ export const FACEBOOK_ACCOUNTS: FacebookAccount[] = [
     url: 'https://www.facebook.com/VMBFlyTravel/',
     image: 'avatar/avatar-dong.jpg',
     followers: '50K+',
-    description: 'Trang chính của Đông - chia sẻ mã code game',
+    description: 'Trang chính của Đổng - chia sẻ mã code game',
     verified: true,
     zaloUrl: 'https://zalo.me/0345367094',
   },
