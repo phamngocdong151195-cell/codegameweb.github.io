@@ -196,7 +196,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   { id: '1', src: 'bill/bill1.jpg', alt: 'bill', title: 'bill', description: '' },
   { id: '2', src: 'bill/bill2.PNG', alt: 'bill', title: 'bill', description: '' },
   { id: '3', src: 'bill/bill3.PNG', alt: 'bill', title: 'bill', description: '' },
-  { id: '4', src: 'bill/1.jpg', alt: 'bill', title: 'bill', description: '' },
+  { id: '4', src: 'bill/23.jpg', alt: 'bill', title: 'bill', description: '' },
   { id: '5', src: 'bill/2.jpg', alt: 'bill', title: 'bill', description: '' },
   { id: '6', src: 'bill/3.jpg', alt: 'bill', title: 'bill', description: '' },
   { id: '7', src: 'bill/4.jpg', alt: 'bill', title: 'bill', description: '' },
@@ -215,4 +215,5 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   { id: '20', src: 'bill/17.jpg', alt: 'bill', title: 'bill', description: '' },
   { id: '21', src: 'bill/18.jpg', alt: 'bill', title: 'bill', description: '' },
   { id: '22', src: 'bill/19.jpg', alt: 'bill', title: 'bill', description: '' },
+  { id: '23', src: 'bill/1.jpg', alt: 'bill', title: 'bill', description: '' },
 ];
