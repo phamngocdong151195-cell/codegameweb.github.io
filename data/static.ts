@@ -20,6 +20,7 @@ export const GAMES: Game[] = [
       { id: 'code1', name: 'Code Hải Tặc Đại Chiến', image: '/anhcode/gamehtdc/htdc1.jpg' },
       { id: 'code2', name: 'Code Hải Tặc Đại Chiến', image: '/anhcode/gamehtdc/htdc2.jpg' },
       { id: 'code3', name: 'Code Hải Tặc Đại Chiến', image: '/anhcode/gamehtdc/htdc3.jpg' },
+      { id: 'code4', name: 'Nhóm Zalo Thông Báo Code', image: '/anhcode/gamehtdc/zalohtdc.jpg' },
     ],
   },
   {
@@ -194,6 +195,10 @@ export const FACEBOOK_ACCOUNTS: FacebookAccount[] = [
 
 export const GALLERY_IMAGES: GalleryImage[] = [
   { id: '1', src: 'bill/24.jpg', alt: 'bill', title: 'bill', description: '' },
+  { id: '26', src: 'bill/25.jpg', alt: 'bill', title: 'bill', description: '' },
+  { id: '27', src: 'bill/26.jpg', alt: 'bill', title: 'bill', description: '' },
+  { id: '28', src: 'bill/27.jpg', alt: 'bill', title: 'bill', description: '' },
+  { id: '29', src: 'bill/28.jpg', alt: 'bill', title: 'bill', description: '' },
   { id: '2', src: 'bill/bill1.jpg', alt: 'bill', title: 'bill', description: '' },
   { id: '3', src: 'bill/bill2.PNG', alt: 'bill', title: 'bill', description: '' },
   { id: '4', src: 'bill/bill3.PNG', alt: 'bill', title: 'bill', description: '' },
