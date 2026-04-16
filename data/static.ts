@@ -193,7 +193,7 @@ export const FACEBOOK_ACCOUNTS: FacebookAccount[] = [
 ];
 
 export const GALLERY_IMAGES: GalleryImage[] = [
-  { id: '1', src: 'bill/bill24.jpg', alt: 'bill', title: 'bill', description: '' },
+  { id: '1', src: 'bill/24.jpg', alt: 'bill', title: 'bill', description: '' },
   { id: '2', src: 'bill/bill1.jpg', alt: 'bill', title: 'bill', description: '' },
   { id: '3', src: 'bill/bill2.PNG', alt: 'bill', title: 'bill', description: '' },
   { id: '4', src: 'bill/bill3.PNG', alt: 'bill', title: 'bill', description: '' },
