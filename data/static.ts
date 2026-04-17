@@ -3,6 +3,12 @@ import type { FacebookAccount, GalleryImage } from '@/types';
 
 export const GAMES: Game[] = [
   {
+    id: '15', name: 'Tây Du VNG', slug: 'tauduvng', image: '/anhcode/gametayduvng/tayduvng.jpg',codes: [
+     // { id: 'code1', name: 'Tây Du VNG', image: '/anhcode/gametayduvng/anhtaydauvng.png' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gametayduvng/zalotayduvng.jpg' },
+    ],
+  },
+  {
     id: '1', name: 'Haki Huyền Thoại', slug: 'Haki', image: '/anhcode/gamehaki/haki.jpg',codes: [
       { id: 'code1', name: 'Code Haki Huyền Thoại', image: '/anhcode/gamehaki/anhhaki.png' },
       { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamehaki/zalohaki.jpg' },
