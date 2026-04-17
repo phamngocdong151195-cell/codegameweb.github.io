@@ -1,5 +1,6 @@
-import { GAMES } from '@/data/static';
+import { GAMES, GROUP_CARD } from '@/data/static';
 import CodeList from '@/components/CodeList';
+import ZaloGroupCard from '@/components/ZaloGroupCard';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
@@ -19,8 +20,9 @@ export default async function GamePage({ params }: GamePageProps) {
   const { slug } = await params;
 
   const game = GAMES.find((g) => g.slug === slug);
+  const zalo = GROUP_CARD.find((g) => g.slug === slug);
 
-  if (!game) {
+  if (!game || !zalo) {
     notFound();
   }
 
@@ -80,6 +82,16 @@ export default async function GamePage({ params }: GamePageProps) {
           <h2 className="text-3xl font-bold text-white mb-8">
             Danh sách mã code
           </h2>
+
+          {/* Zalo Group Card */}
+          <div className="mb-12">
+            <ZaloGroupCard 
+              link={zalo.link}
+              image={zalo.image}
+              name={zalo.name}
+            />
+          </div>
+
           <CodeList codes={game.codes} />
         </div>
       </main>

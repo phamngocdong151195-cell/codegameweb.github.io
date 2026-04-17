@@ -30,3 +30,10 @@ export type GalleryImage = {
   title?: string;
   description?: string;
 };
+export type ZaloGroup = {
+  id: string;
+  name: string;
+  slug: string;
+  image: string;
+  link: string;
+};
