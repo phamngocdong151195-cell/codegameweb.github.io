@@ -2,6 +2,12 @@ import { Game } from '@/types';
 import type { FacebookAccount, GalleryImage } from '@/types';
 
 export const GAMES: Game[] = [
+ {
+    id: '16', name: 'Ta Là Cao Thủ Võ Lâm', slug: 'tauduvng', image: '/anhcode/gamectvolam/ctvolam.jpg',codes: [
+     // { id: 'code1', name: 'Ta Là Cao Thủ Võ Lâm', image: '/anhcode/gamectvolam/anhtaydauvng.png' },
+      { id: 'code2', name: 'Nhóm Zalo Thông Báo Code Mới', image: '/anhcode/gamectvolam/zaloctvolam.jpg' },
+    ],
+  },
   {
     id: '15', name: 'Tây Du VNG', slug: 'tauduvng', image: '/anhcode/gametayduvng/tayduvng.jpg',codes: [
      // { id: 'code1', name: 'Tây Du VNG', image: '/anhcode/gametayduvng/anhtaydauvng.png' },
