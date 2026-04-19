@@ -1,5 +1,6 @@
 import { GAMES, GROUP_CARD } from '@/data/static';
 import CodeList from '@/components/CodeList';
+import CommonCodeBox from '@/components/CommonCodeBox';
 import ZaloGroupCard from '@/components/ZaloGroupCard';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
@@ -92,7 +93,17 @@ export default async function GamePage({ params }: GamePageProps) {
             />
           </div>
 
-          <CodeList codes={game.codes} />
+          {/* Codes Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 px-0 sm:px-4">
+            {/* Common Code Box Card */}
+            <CommonCodeBox 
+              commonCodes={game.commonCodes}
+              gameName={game.name}
+            />
+
+            {/* Code Cards */}
+            <CodeList codes={game.codes} />
+          </div>
         </div>
       </main>
     </div>

@@ -24,6 +24,10 @@ export const GAMES: Game[] = [
     id: '3', name: 'Phong Hầu Tam Quốc', slug: 'phonghautamquoc', image: '/anhcode/gamephonghau/anhphonghau.jpg', codes: [
       { id: 'code1', name: 'Code Phong Hầu Tam Quốc', image: '/anhcode/gamephonghau/phonghau.jpg' },
     ],
+    commonCodes: [
+      { id: 'common1', code: 'PHONG2024', description: 'Code 1' },
+      { id: 'common2', code: 'LETGO', description: 'Code 2' },
+    ],
   },
   {
     id: '4', name: 'Siêu Hải Tặc', slug: 'sieu-hai-tac', image: '/anhcode/gamesieuhaitac/siêu hải tặc.jpg', codes: [

@@ -28,7 +28,7 @@ const GameCard = ({ game }: GameCardProps) => {
           {game.name}
         </h3>
         <p className="text-xs sm:text-sm text-slate-400 mt-1">
-          {game.codes.length} mã code
+          {/* {game.codes.length} mã code */}
         </p>
       </div>
       <div className="absolute inset-0 rounded-xl border-2 border-cyan-400/0 group-hover:border-cyan-400/50 transition-all duration-300 pointer-events-none" />

@@ -4,12 +4,19 @@ export type Game = {
   slug: string;
   image: string;
   codes: Code[];
+  commonCodes?: CommonCode[];
 };
 
 export type Code = {
   id: string;
   name: string;
   image: string;
+};
+
+export type CommonCode = {
+  id: string;
+  code: string;
+  description?: string;
 };
 
 export type FacebookAccount = {
