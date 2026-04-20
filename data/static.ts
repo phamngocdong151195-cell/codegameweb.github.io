@@ -196,3 +196,4 @@ export const GAME_DATA = {
     },
   ] as ZaloGroup[]
 };
+
